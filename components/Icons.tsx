@@ -54,7 +54,7 @@ import {
   Zap,
   Banknote,
   Home,
-  TriangleAlert,
+  AlertTriangle,
   ChevronDown,
   ChevronUp,
   ChevronRight,
@@ -102,6 +102,6 @@ export {
   Moon, RefreshCw, MessageCircle, Share2, Heart, Filter, Utensils, ShoppingBag, Landmark, CircleAlert,
   Map, ArrowRight, Maximize2, Sparkles, Crosshair, Leaf, Link, Search, X, ArrowLeft,
   Footprints, Bus, Car, Train, Bike, ZoomIn, ZoomOut, Calendar, TrafficCone, Ticket,
-  BarChart3, Timer, Zap, Banknote, Home, TriangleAlert, ChevronDown, ChevronUp, ChevronRight,
+  BarChart3, Timer, Zap, Banknote, Home, AlertTriangle, ChevronDown, ChevronUp, ChevronRight,
   Trees, Beer, BedDouble
 };
