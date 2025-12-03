@@ -51,7 +51,7 @@ import {
   Zap,
   Banknote,
   Home,
-  TriangleAlert,
+  AlertTriangle,
   Wheelchair,
   ChevronDown,
   ChevronUp,
@@ -326,7 +326,7 @@ const SearchPage = ({ onSearch }: { onSearch: (from: string, to: string) => void
       </header>
 
       {/* TIDY UNIFIED SEARCH BOX CONTAINER */}
-      <div className="mb-6 relative z-30 animate-fade-in-up-delay">
+      <div className="mb-6 relative z-30">
         {/* We remove overflow-hidden from the main wrapper to allow dropdowns to show */}
         <div className="bg-transparent flex flex-col shadow-sm rounded-2xl">
           
@@ -781,7 +781,7 @@ const ResultsPage = ({ data, onSelect }: { data: RouteData | null, onSelect: (op
               {/* Traffic or Transit Info Snippet */}
               {option.trafficCondition && (
                 <div className="mt-2 flex items-center gap-1.5 text-xs">
-                  <TriangleAlert className={`w-3 h-3 ${option.trafficCondition === 'Heavy' ? 'text-red-500' : option.trafficCondition === 'Moderate' ? 'text-yellow-500' : 'text-green-500'}`} />
+                  <AlertTriangle className={`w-3 h-3 ${option.trafficCondition === 'Heavy' ? 'text-red-500' : option.trafficCondition === 'Moderate' ? 'text-yellow-500' : 'text-green-500'}`} />
                   <span className="text-gray-600 dark:text-gray-300">{option.trafficCondition} Traffic</span>
                 </div>
               )}
