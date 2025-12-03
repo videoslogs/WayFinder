@@ -11,47 +11,15 @@
         darkMode: 'class',
         theme: {
           extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-              accent: '#FACC15', // Yellow-400
-              dark: '#050505',
-              card: '#1C1C1E', // Dark gray similar to screenshot
-              subtle: '#2C2C2E'
-            }
+            colors: { accent: '#FACC15', dark: '#050505', card: '#1C1C1E', subtle: '#2C2C2E' }
           }
         }
       }
     </script>
-    <style>
-      body {
-        background-color: #000000;
-        color: #ffffff;
-      }
-      /* Hide scrollbar for clean mobile look */
-      ::-webkit-scrollbar {
-        width: 0px;
-        background: transparent;
-      }
-    </style>
-    <!-- Link to CSS if it exists, otherwise tailwind CDN handles utility classes -->
-    <!-- <link rel="stylesheet" href="/index.css"> -->
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0",
-    "vite": "https://aistudiocdn.com/vite@^7.2.6",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
-  }
-}
-</script>
-</head>
+    <style>body { background-color: #000; color: #fff; } ::-webkit-scrollbar { width: 0; }</style>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/index.css">
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
