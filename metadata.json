@@ -1,0 +1,7 @@
+{
+  "name": "Wayfinder",
+  "description": "An AI-powered travel assistant providing multi-modal route options, cost estimates, and carbon footprint analysis.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
